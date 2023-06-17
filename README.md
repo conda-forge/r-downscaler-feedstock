@@ -1,11 +1,11 @@
-About r-downscaler
-==================
+About r-downscaler-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-downscaler-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SantanderMetGroup/climate4R
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-downscaler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for climate data calibration (bias correction, quantile mapping etc.) and perfect-prog downscaling, as part of the climate4R framework (<http://meteo.unican.es/climate4R>).
 
