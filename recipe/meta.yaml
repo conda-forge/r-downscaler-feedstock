@@ -1,4 +1,4 @@
-{% set version = "3.3.3" %}
+{% set version = "3.3.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/downscaleR/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 696a847e7ff53212968b290d0ffb39df1990e8e21373549665f632bac8980087
+  sha256: ff4b7016e177abf453e5326eac32d31bb8b8c85e4ee36bcbc3c01b7abf303e80
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
