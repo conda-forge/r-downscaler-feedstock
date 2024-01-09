@@ -12,7 +12,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -50,6 +50,14 @@ requirements:
     - r-reticulate
     - r-sticky
     - r-transformer >=2.0.1
+    # explicit python dependencis for ISIMIP3 PY scripts
+    # TODO: include from inst/environment.yml
+    - python
+    - dask
+    - iris
+    - scipy
+    - numpy
+    - pandas
 
 test:
   commands:
